@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:focus-visible {
+  outline: 2px solid #facc15;
+  outline-offset: 2px;
+}
+
+@media (max-width: 1279px) {
+  .mobile-editor-panel button,
+  .mobile-editor-panel select,
+  .mobile-editor-panel textarea {
+    min-height: 44px;
+  }
+
+  .mobile-editor-panel input:not([type="range"]) {
+    min-height: 44px;
+  }
+
+  .mobile-editor-panel input[type="checkbox"] {
+    min-width: 44px;
+  }
+
+  .mobile-editor-panel input[type="range"] {
+    min-height: 44px;
+  }
+
+  .mobile-editor-panel button,
+  .mobile-editor-panel label,
+  .mobile-editor-panel p,
+  .mobile-editor-panel span,
+  .mobile-editor-panel legend {
+    font-size: max(0.75rem, 1em);
+  }
+}

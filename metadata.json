@@ -1,0 +1,6 @@
+{
+  "name": "DeconstructAI - Poster to Editable Design Studio",
+  "description": "AI Poster-to-Editable-Design Reconstruction Platform. Reconstructs flat posters and flyers into fully editable layered designs with OCR, semantic region extraction, smart inpainting, and an AI mutation assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
